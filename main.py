@@ -1,7 +1,7 @@
 import os
 import cv2
 
-# here is the all functions in one file 
+# here is  all functions in one file 
  # read image 
 """"
 image_path = os.path.join('.','data','image.png')
