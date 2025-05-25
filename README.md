@@ -34,7 +34,6 @@ import os
 ## 📁 Project Structure
 
 ```
-image tracing/
 │
 ├── data/               # Image files directory
 ├── main.py            # Main script
