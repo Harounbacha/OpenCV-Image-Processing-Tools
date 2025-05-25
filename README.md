@@ -31,16 +31,6 @@ pip install opencv-python
 import cv2
 import os
 
-# Load and resize image
-img = cv2.imread('data/image.png')
-resized_img = cv2.resize(img, (1148, 774))
-
-# Display results
-cv2.imshow('Original', img)
-cv2.imshow('Resized', resized_img)
-cv2.waitKey(0)
-```
-
 ## 📁 Project Structure
 
 ```
@@ -49,7 +39,12 @@ image tracing/
 ├── data/               # Image files directory
 ├── main.py            # Main script
 ├── basicImageOperations.py  # Basic image processing operations
-└── README.md          # Project documentation
+├── colorSpacing.py
+├── imageBlurring.py
+├── imageCropping.py
+├── read.py
+├── showVideo.py
+└── README.md         
 ```
 
 ## 📝 Notes
