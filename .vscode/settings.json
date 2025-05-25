@@ -2,6 +2,6 @@
     "cSpell.words": [
         "imwrite"
         "imread"
-        "show"
+        "imshow"
     ]
 }
