@@ -1,5 +1,7 @@
 import os
 import cv2
+
+# here is  all functions in one file 
  # read image 
 """"
 image_path = os.path.join('.','data','image.png')
@@ -74,6 +76,7 @@ cv2.waitKey(0) """
 # in blurring we use gaussian blur to remove noise from the image
 # there is many types of blurring like median blur, bilateral blur, etc
 # GO TO the documentation in "https://docs.opencv.org/4.x/d4/d13/tutorial_py_filtering.html" for more information
+"""
 img = cv2.imread(os.path.join('.','data','men.jfif'))
 img = cv2.resize(img, (500, 500,))
 k_Size = 9  # kernel size
@@ -94,5 +97,5 @@ cv2.imshow('blurred_median_noisy', img_median_noisy)
 cv2.imshow('blurred_gaussian_noisy', img_gaussian_noisy)
 
 cv2.waitKey(0)
-
+"""
 
